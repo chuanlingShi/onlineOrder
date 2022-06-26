@@ -1,6 +1,5 @@
 package com.laioffer.onlineOrder.controller;
 
-import com.laioffer.onlineOrder.dao.CustomerDao;
 import com.laioffer.onlineOrder.entity.Customer;
 import com.laioffer.onlineOrder.service.CustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,9 +13,6 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 @Controller
 public class SignUpController {
 
-
-
-
     private CustomerService customerService;
 
     @Autowired
@@ -28,6 +24,7 @@ public class SignUpController {
     @ResponseStatus(value = HttpStatus.CREATED)
     public void signUp(@RequestBody Customer customer) {
         customerService.signUp(customer);
+        System.out.println(customer.getFirstName());
     }
 }
 

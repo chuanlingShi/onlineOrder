@@ -13,18 +13,14 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 @Controller
 public class SignUpController {
 
-    private CustomerService customerService;
-
     @Autowired
-    public SignUpController(CustomerService customerService) {
-        this.customerService = customerService;
-    }
+    private CustomerService customerService;
 
     @RequestMapping(value = "/signup", method = RequestMethod.POST)
     @ResponseStatus(value = HttpStatus.CREATED)
     public void signUp(@RequestBody Customer customer) {
         customerService.signUp(customer);
-        System.out.println(customer.getFirstName());
     }
 }
+
 

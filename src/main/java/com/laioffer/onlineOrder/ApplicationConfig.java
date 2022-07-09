@@ -15,7 +15,7 @@ public class ApplicationConfig {
 
     @Bean(name = "sessionFactory")
     public LocalSessionFactoryBean sessionFactory() {
-        String PACKAGE_NAME = "";
+        String PACKAGE_NAME = "com.laiOffer.onlineOrder.entity";
         LocalSessionFactoryBean sessionFactory = new LocalSessionFactoryBean();
         sessionFactory.setDataSource(dataSource());
         sessionFactory.setPackagesToScan(PACKAGE_NAME);

@@ -22,11 +22,9 @@ public class MenuItem implements Serializable {
 
     private String imageUrl;
 
-
     @ManyToOne
     @JsonIgnore
     private Restaurant restaurant;
-
 
     public int getId() {
         return id;

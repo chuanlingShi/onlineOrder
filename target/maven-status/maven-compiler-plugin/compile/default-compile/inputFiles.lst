@@ -1,6 +1,7 @@
 C:\Users\shich\Documents\Lai\PROJECTS\onlineOrder\src\main\java\com\laioffer\onlineOrder\controller\CartController.java
 C:\Users\shich\Documents\Lai\PROJECTS\onlineOrder\src\main\java\com\laioffer\onlineOrder\HelloServlet.java
 C:\Users\shich\Documents\Lai\PROJECTS\onlineOrder\src\main\java\com\laioffer\onlineOrder\SecurityConfig.java
+C:\Users\shich\Documents\Lai\PROJECTS\onlineOrder\src\main\java\com\laioffer\onlineOrder\service\MenuInfoService.java
 C:\Users\shich\Documents\Lai\PROJECTS\onlineOrder\src\main\java\com\laioffer\onlineOrder\dao\CustomerDao.java
 C:\Users\shich\Documents\Lai\PROJECTS\onlineOrder\src\main\java\com\laioffer\onlineOrder\entity\MenuItem.java
 C:\Users\shich\Documents\Lai\PROJECTS\onlineOrder\src\main\java\com\laioffer\onlineOrder\service\CustomerService.java
@@ -11,6 +12,7 @@ C:\Users\shich\Documents\Lai\PROJECTS\onlineOrder\src\main\java\com\laioffer\onl
 C:\Users\shich\Documents\Lai\PROJECTS\onlineOrder\src\main\java\com\laioffer\onlineOrder\controller\SignUpController.java
 C:\Users\shich\Documents\Lai\PROJECTS\onlineOrder\src\main\java\com\laioffer\onlineOrder\controller\MenuInfoController.java
 C:\Users\shich\Documents\Lai\PROJECTS\onlineOrder\src\main\java\com\laioffer\onlineOrder\entity\Restaurant.java
+C:\Users\shich\Documents\Lai\PROJECTS\onlineOrder\src\main\java\com\laioffer\onlineOrder\dao\MenuInfoDao.java
 C:\Users\shich\Documents\Lai\PROJECTS\onlineOrder\src\main\java\com\laioffer\onlineOrder\controller\SignInController.java
 C:\Users\shich\Documents\Lai\PROJECTS\onlineOrder\src\main\java\com\laioffer\onlineOrder\ApplicationConfig.java
 C:\Users\shich\Documents\Lai\PROJECTS\onlineOrder\src\main\java\com\laioffer\onlineOrder\controller\CheckoutController.java

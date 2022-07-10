@@ -17,5 +17,6 @@ com\laioffer\onlineOrder\service\OrderItemService.class
 com\laioffer\onlineOrder\dao\OrderItemDao.class
 com\laioffer\onlineOrder\controller\CartController.class
 com\laioffer\onlineOrder\entity\Cart.class
+com\laioffer\onlineOrder\service\CartService.class
 com\laioffer\onlineOrder\controller\MenuInfoController.class
 com\laioffer\onlineOrder\entity\OrderItem.class
